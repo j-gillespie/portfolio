@@ -27,15 +27,12 @@ function HomepageHeader() {
     </header>
   );
 }
-*/
-import React from 'react';
-import Layout from '@theme/Layout';
 
 export default function Home() {
-//  const {siteConfig} = useDocusaurusContext();
+  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={"Jim Gillespie"}
+      title="Jim Gillespie"
       description="Technical Writing Portfolio">
       <HomepageHeader />
       <main>
@@ -43,4 +40,47 @@ export default function Home() {
       </main>
     </Layout>
   );
+}
+*/
+import React from 'react';
+import Layout from '@theme/Layout';
+
+export default function Home() {
+return (
+<Layout
+title="Jim's Portfolio"
+description="Technical Writing Portfolio"
+>
+<main style={{ padding: '2rem' }}>
+<header>
+<h1 style={{ fontSize: '2.5rem', color: '#2c3e50' }}>Jim Gillespie</h1>
+<p style={{ fontSize: '1.25rem' }}>
+Technical Writer | Documentation Specialist | Content Strategist
+</p>
+</header>
+
+<section style={{ marginTop: '2rem' }}>
+<h2>About Me</h2>
+<p>I am a technical writer based in Austin, Texas. I have 20+ years of experience creating documentation for leading technology companies like IBM Global Services, Tivoli Software, Reddwerks, AMD, TippingPoint, and National Instruments. I've also documented statewide financial systems at the Texas Comptroller of Public Accounts and a payment processing system for the Texas Office of the Attorney General.</p>
+
+<p>My work spans a number of technical domains, from fiscal management systems and IT service management tools to supply chain management platforms, semiconductor technology, network security, and test and measurement systems.</p>
+</section>
+
+<section style={{ marginTop: '2rem' }}>
+<h2>Writing Samples</h2>
+<ul>
+<li>
+<a href="/docs/project1">API Documentation</a>
+</li>
+<li>
+<a href="/docs/project2">User Documentation</a>
+</li>
+<li>
+<a href="/docs/project3">Hardware Documentation</a>
+</li>
+</ul>
+</section>
+</main>
+</Layout>
+);
 }

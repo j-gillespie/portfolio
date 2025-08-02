@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Jim Gillespie',
-  tagline: 'Portfolio',
+  tagline: 'Technical Writer',
   favicon: 'img/jg-gear.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -85,7 +85,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/jg-gear.png',
         },
         items: [
           {
@@ -106,15 +106,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documents',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Resume',
+                href: 'https://www.dropbox.com/scl/fi/cjob9pb434uoqsob4qjcw/Gillespie_Resume.pdf',
               },
             ],
           },
-          {
+  /*        {
             title: 'Community',
             items: [
               {
@@ -130,22 +130,22 @@ const config = {
                 href: 'https://x.com/docusaurus',
               },
             ],
-          },
+          }, */
           {
-            title: 'More',
+            title: 'Links',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'LinkedIn',
+                to: 'https://www.linkedin.com/in/jgilles',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/j-gillespie/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jim Gillespie. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
