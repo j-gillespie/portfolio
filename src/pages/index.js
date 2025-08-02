@@ -54,8 +54,8 @@ description="Technical Writing Portfolio"
 <main style={{ padding: '2rem' }}>
 <header>
 <h1 style={{ fontSize: '2.5rem', color: '#2c3e50' }}>Jim Gillespie</h1>
-<p style={{ fontSize: '1.25rem' }}>
-Technical Writer | Documentation Specialist | Content Strategist
+<p style={{ fontSize: '1.00rem' }}>
+Technical Writer | Information Developer | Documentation Specialist
 </p>
 </header>
 
