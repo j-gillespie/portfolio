@@ -29,7 +29,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'j-gillespie', // Usually your GitHub org/user name.
   projectName: 'portfolio', // Usually your repo name.
-  trailingSlah: true,
+  trailingSlash: true,
   
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
