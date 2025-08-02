@@ -1,4 +1,4 @@
-import clsx from 'clsx';
+/*import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -27,13 +27,16 @@ function HomepageHeader() {
     </header>
   );
 }
+*/
+import React from 'react';
+import Layout from '@theme/Layout';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+//  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={"Jim Gillespie"}
+      description="Technical Writing Portfolio">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
