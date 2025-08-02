@@ -88,7 +88,7 @@ const config = {
           src: 'img/jg-gear.png',
         },
         items: [
-          {
+/*          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
@@ -100,7 +100,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-        ],
+*/        ],
       },
       footer: {
         style: 'dark',
