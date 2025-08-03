@@ -88,15 +88,15 @@ const config = {
           src: 'img/jg-gear.png',
         },
         items: [
-          {
+ /*         {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
-          },
+          }, */
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://j-gillespie.github.io/portfolio/',
             label: 'GitHub',
             position: 'right',
           },
@@ -116,7 +116,7 @@ const config = {
               },
             ],
           },
-         {
+  /*       {
             title: 'Community',
             items: [
               {
@@ -132,7 +132,7 @@ const config = {
                 href: 'https://x.com/docusaurus',
               },
             ],
-          }, 
+          }, */ 
           {
             title: 'Links',
             items: [
