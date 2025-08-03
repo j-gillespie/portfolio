@@ -44,6 +44,7 @@ export default function Home() {
 */
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 
 export default function Home() {
 return (
@@ -53,7 +54,7 @@ description="Technical Writing Portfolio"
 >
 <main style={{ padding: '2rem' }}>
 <header>
-<h1 style={{ fontSize: '2.5rem', color: '#2c3e50' }}>Jim Gillespie</h1>
+<h1 style={{ fontSize: '2.5rem', color: '#007acc' }}>Jim Gillespie</h1>
 <p style={{ fontSize: '1.00rem' }}>
 Technical Writer | Information Developer | Documentation Specialist
 </p>
@@ -70,13 +71,13 @@ Technical Writer | Information Developer | Documentation Specialist
 <h2>Writing Samples</h2>
 <ul>
 <li>
-<a href="/docs/project1">API Documentation</a>
+<Link to="/api-docs">API Documentation</Link>
 </li>
 <li>
-<a href="/docs/project2">User Documentation</a>
+<Link to="/user-docs">User Documentation</Link>
 </li>
 <li>
-<a href="/docs/project3">Hardware Documentation</a>
+<Link to="/hardware-docs">Hardware Documentation</Link>
 </li>
 </ul>
 </section>

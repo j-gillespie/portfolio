@@ -29,7 +29,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'j-gillespie', // Usually your GitHub org/user name.
   projectName: 'portfolio', // Usually your repo name.
-  trailingSlash: true,
+  trailingSlash: false,
   
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,7 +52,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://j-gillespie.github.io/portfolio/',
         },
         blog: {
           showReadingTime: true,
@@ -63,7 +63,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://j-gillespie.github.io/portfolio/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -88,7 +88,7 @@ const config = {
           src: 'img/jg-gear.png',
         },
         items: [
-/*          {
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
@@ -100,7 +100,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-*/        ],
+        ],
       },
       footer: {
         style: 'dark',
@@ -109,12 +109,14 @@ const config = {
             title: 'Documents',
             items: [
               {
-                label: 'Resume',
-                href: 'https://www.dropbox.com/scl/fi/cjob9pb434uoqsob4qjcw/Gillespie_Resume.pdf',
+                label: 'Resume (PDF)',
+				href: 'gillespie-resume.pdf',
+				target: '_blank',
+				rel: 'noopener noreferrer',
               },
             ],
           },
-  /*        {
+         {
             title: 'Community',
             items: [
               {
@@ -130,17 +132,17 @@ const config = {
                 href: 'https://x.com/docusaurus',
               },
             ],
-          }, */
+          }, 
           {
             title: 'Links',
             items: [
               {
                 label: 'LinkedIn',
-                to: 'https://www.linkedin.com/in/jgilles',
+                href: 'https://www.linkedin.com/in/jgilles',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/j-gillespie/',
+                href: 'https://github.com/j-gillespie',
               },
             ],
           },
