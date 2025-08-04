@@ -9,7 +9,7 @@ return (
 <h1>Hardware Documentation</h1>
 
 <h2>Hardware User Manual</h2>
-<p>The <a href="pixe-8521_um.pdf">PXIe-8521 User Manual</a> provides information for NI’s first Automotive Ethernet PXI Express module. The manual covers installation, configuration, and basic operation, guiding the user from unpacking the kit through connecting and preparing the device for use. I authored the manual using Oxygen Author to develop structured DITA content and Adobe Illustrator to create SVG illustrations. I delivered a PDF and print specifications to the print shop for printed copies to be included in the hardware kits, and I prepared the PDF for publication on the NI website, integrating appropriate product codes and metadata.</p>
+<p>The <a href="pixe-8521_um.pdf" target="_blank" rel="noopener noreferrer">PXIe-8521 User Manual</a> provides information for NI’s first Automotive Ethernet PXI Express module. The manual covers installation, configuration, and basic operation, guiding the user from unpacking the kit through connecting and preparing the device for use. I authored the manual using Oxygen Author to develop structured DITA content and Adobe Illustrator to create SVG illustrations. I delivered a PDF and print specifications to the print shop for printed copies to be included in the hardware kits, and I prepared the PDF for publication on the NI website, integrating appropriate product codes and metadata.</p>
 
 </div>
 </Layout>
