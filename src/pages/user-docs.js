@@ -11,6 +11,19 @@ return (
 <p><em>HP TippingPoint vSMS Getting Started Guide v4.1</em></p>
 <p>This <a href="vsms-user-sample.pdf" target="_blank" rel="noopener noreferrer">one-page excerpt</a> from the <em>vSMS Getting Started Guide</em> provides instructions for configuring the virtual client to log into the HP TippingPoint Security Management System (SMS). As an information developer at HP TippingPoint, I developed documentation to support network security professionals integrating these solutions into their environments. I created documentation for software and hardware, including intrusion prevention system (IPS) devices and the platform’s first next-generation firewall system. I authored content in FrameMaker, used Illustrator and Visio for images and diagrams, and published documents in PDF format for enterprise distribution.</p>
 
+<figure style={{ textAlign: 'center' }}>
+<a href="vsms-user-sample.pdf" target="_blank" rel="noopener noreferrer">
+<img
+  src={require('@site/static/img/smsui.png').default}
+  alt="API Sample Thumnbnail"
+  style={{ maxWidth: '300px', height: 'auto', cursor: 'pointer' }}
+  />
+</a>
+<figcaption style={{ marginTop: '0.3rem', fontStyle: 'italic', fontSize: '0.9rem' }}>
+View sample (PDF)
+</figcaption>
+</figure>
+
 </div>
 </Layout>
 );

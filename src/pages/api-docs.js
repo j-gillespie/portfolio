@@ -15,7 +15,7 @@ return (
 
 <p>The NI-XNET API reference was created in HTML and delivered in compiled HTML Help format.</p>
 
-<figure style={{ textAlign: 'left' }}>
+<figure style={{ textAlign: 'center' }}>
 <a href="xnet-api-sample.pdf" target="_blank" rel="noopener noreferrer">
 <img
   src={require('@site/static/img/nxIpStackCreate.png').default}
@@ -24,7 +24,7 @@ return (
   />
 </a>
 <figcaption style={{ marginTop: '0.3rem', fontStyle: 'italic', fontSize: '0.9rem' }}>
-Click to view excerpt from NI-XNET C API reference (PDF)
+View sample (PDF)
 </figcaption>
 </figure>
 
