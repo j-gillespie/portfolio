@@ -45,6 +45,7 @@ export default function Home() {
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import SimpleTextRotator from '../components/SimpleTextRotator';
 
 export default function Home() {
 return (
@@ -80,6 +81,11 @@ Technical Writer | Information Developer | Documentation Specialist
 <Link to="/hardware-docs">Hardware Documentation</Link>
 </li>
 </ul>
+</section>
+
+<section style={{ marginTop: '2rem' }}>
+<h2>Testimonials</h2>
+<SimpleTextRotator />
 </section>
 
 </main>
