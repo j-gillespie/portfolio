@@ -18,7 +18,7 @@ const [index, setIndex] = useState(0);
 useEffect(() => {
 const timer = setInterval(() => {
 setIndex((prev) => (prev + 1) % messages.length);
-}, 12000); // 12 seconds
+}, 20000); // 20 seconds
 return () => clearInterval(timer);
 }, []);
 
