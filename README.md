@@ -2,9 +2,9 @@
 
 This repository contains source files for my technical writing portfolio, built with [Docusaurus](https://docusaurus.io/). It showcases a few samples of my work in API references, software manuals, and hardware documentation.
 
-I have over 20 years of experience documenting complex enterprise software, hardware, software drivers, APIs, and SaaS products at places like IBM, HP, AMD, National Instruments, and a few others you might now know. Along the way, I've held  titles like  Technical Writer, Information Developer, Content Specialist, and probably a few that were invented on the spot.  I’ve picked up a bit of coding, sharpened my design eye, become a better communicator, and learned how to be the kind of writer who reads the error logs before asking engineering for help.
+I have over 20 years of experience documenting complex enterprise software, hardware, software drivers, APIs, and SaaS products at places like IBM, HP, AMD, National Instruments, and a few others you might not have heard of. Along the way, I've held titles like Technical Writer, Information Developer, Content Specialist, and probably a few that were invented on the spot. I’ve picked up a bit of coding, sharpened my design eye, become a better communicator, and learned how to be the kind of writer who reads the error logs before asking engineering for help.
 
-This site was built using docs-as-code workflows and minimalist design principles. 
+This site was built using docs-as-code workflows and minimalist design principles.
 
 👉 [Visit the live portfolio](https://j-gillespie.github.io/portfolio/)
 
@@ -13,7 +13,7 @@ This site was built using docs-as-code workflows and minimalist design principle
 
 📬 Email: j3gillespie@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/jgilles/
+🔗 [LinkedIn](https://www.linkedin.com/in/jgilles/)
 
 
 <!-- # Website
