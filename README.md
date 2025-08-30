@@ -11,7 +11,7 @@ This site was built using docs-as-code workflows and minimalist design principle
 ---
 **Contact** 
 
-📬 Email: j3gillespie@gmail.com
+📬 j3gillespie@gmail.com
 
 🔗 [LinkedIn](https://www.linkedin.com/in/jgilles/)
 
