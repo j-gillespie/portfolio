@@ -6,8 +6,9 @@ I have over 20 years of experience documenting complex enterprise software, hard
 
 This site was built using docs-as-code workflows and minimalist design principles. 
 
-👉 [Visit the live portfolio](https://j-gillespie.github.io/portfolio/).
+👉 [Visit the live portfolio](https://j-gillespie.github.io/portfolio/)
 
+---
 **Contact** 
 
 📬 Email: j3gillespie@gmail.com
