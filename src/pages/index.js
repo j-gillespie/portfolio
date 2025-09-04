@@ -70,6 +70,7 @@ Technical Writer | Information Developer | Documentation Specialist
 
 <section style={{ marginTop: '2rem' }}>
 <h2>Writing Samples</h2>
+                <p>I've included a few writing samples across three general categories. They show how I adapt my writing for different audiences and formats. My broader portfolio includes projects such as online help systems, migration guides, in-app content, release notes, newsletter articles, white papers, and knowledge base articles. These examples represent just a slice of my work—I'm happy to share more on request.</p>
 <ul>
 <li>
 <Link to="/api-docs">API Documentation</Link>
